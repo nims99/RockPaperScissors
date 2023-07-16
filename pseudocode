@@ -1,0 +1,16 @@
+Print the message "Hello! Welcome to the Rock Paper Scissors Program!"
+Set the variable isWin to False.
+Enter a loop that continues until isWin is False.
+Print an empty line.
+Print the options for the user: "Press 1 for Rock," "Press 2 for Paper," and "Press 3 for Scissors."
+Read the user's input and store it in the variable UserInput.
+Generate a random number between 1 and 3 and store it in the variable ComputerInput.
+If UserInput is equal to 1 and ComputerInput is equal to 1, set isWin to False and print "It's a draw; you both played Rock!"
+If UserInput is equal to 2 and ComputerInput is equal to 1, set isWin to True and print "You win! The computer played Rock!"
+If UserInput is equal to 3 and ComputerInput is equal to 1, set isWin to True and print "You lose! The computer played Rock!"
+If UserInput is equal to 1 and ComputerInput is equal to 2, set isWin to True and print "You lose! The computer played Paper!"
+If UserInput is equal to 2 and ComputerInput is equal to 2, set isWin to False and print "It's a draw; the computer played Paper!"
+If UserInput is equal to 3 and ComputerInput is equal to 2, set isWin to True and print "You win! The computer played Paper!"
+If UserInput is equal to 1 and ComputerInput is equal to 3, set isWin to True and print "You win! The computer played Scissors!"
+If UserInput is equal to 2 and ComputerInput is equal to 3, set isWin to True and print "You lose! The computer played Scissors!"
+If UserInput is equal to 3 and ComputerInput is equal to 3, set isWin to False and print "It's a draw; the computer played Scissors!"
